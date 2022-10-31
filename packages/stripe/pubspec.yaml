@@ -21,7 +21,11 @@ flutter:
 dependencies:
   flutter:
     sdk: flutter
-  stripe_android: ^5.1.0
+  stripe_android:
+    git:
+      url: "https://github.com/pravin-sorigin/flutter_stripe.git"
+      ref: v5.1.0
+      path: packages/stripe_android
   stripe_ios: ^5.1.0
   stripe_platform_interface: ^5.1.0
 dev_dependencies:
